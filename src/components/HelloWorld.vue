@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div>我是helloworld组件</div>
 </template>
 
 <script>

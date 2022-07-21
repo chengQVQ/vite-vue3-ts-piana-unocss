@@ -1,19 +1,19 @@
 <template>
-  <div mt-30px text-blue>{{store.cheng}}</div>
+  <a-button type="link">hahaha</a-button>
+  <hello-world />
 </template>
 
 <script>
 import { useStore } from "./store/index";
-import { defineComponent } from "vue";
 export default defineComponent({
   setup() {
     const store = useStore();
     store.$patch({
       cheng: store.cheng + "world", //修改
     });
-    return{
-      store
-    }
+    return {
+      store,
+    };
   },
 });
 </script>
