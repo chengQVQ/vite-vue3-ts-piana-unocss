@@ -1,6 +1,7 @@
 <template>
   <a-button type="link">hahaha</a-button>
   <hello-world />
+  <img src="@/assets/1.jpg" alt="">
 </template>
 
 <script>
