@@ -1,7 +1,8 @@
 <template>
   <a-button type="link">hahaha</a-button>
   <hello-world />
-  <img src="@/assets/1.jpg" alt="">
+  <img src="@/assets/1.jpg" class="w-10px" alt="">
+  <div mt-13px>123</div>
 </template>
 
 <script>
