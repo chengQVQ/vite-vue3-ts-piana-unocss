@@ -1,5 +1,5 @@
 <template>
-  <a-button type="link">hahaha</a-button>
+  <a-button type="primary">hahaha</a-button>
   <hello-world />
   <img src="@/assets/1.jpg" class="w-10px" alt="">
 
