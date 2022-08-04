@@ -8,6 +8,10 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     AButton: typeof import('ant-design-vue/es')['Button']
+    ATabPane: typeof import('ant-design-vue/es')['TabPane']
+    ATabs: typeof import('ant-design-vue/es')['Tabs']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    Pinia: typeof import('./src/components/pinia/pinia.vue')['default']
+    Test: typeof import('./src/components/test.vue')['default']
   }
 }
