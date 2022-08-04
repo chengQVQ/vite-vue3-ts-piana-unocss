@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-// pinia只有state, getter和action
+// pinia只有state, getter和action 莫得mutations
 export const useStore = defineStore("main", {
   state() {
     return { cheng: "hello", number: 0 };
