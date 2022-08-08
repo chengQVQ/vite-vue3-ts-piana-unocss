@@ -21,6 +21,17 @@ export default defineComponent({
     const add = () => {
       obj.a += 2;
     };
+    const reduce1 = () => {
+      let arr = [1, 2, 3, 4];
+      let sum = arr.reduce((pre, cur, index, array) => {
+        console.log(pre, cur, index, array);
+        return pre + cur;
+      }, 0);
+      console.log(sum);
+    };
+    onMounted(() => {
+      reduce1();
+    });
     return {
       n,
       add,
