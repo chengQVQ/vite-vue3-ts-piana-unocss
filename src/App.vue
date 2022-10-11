@@ -1,20 +1,28 @@
 <template>
-  <a-tabs tab-position="left">
-    <a-tab-pane tab="unocss" key="1">
-      <test />
-    </a-tab-pane>
-    <a-tab-pane tab="pinia" key="2"><pinia/></a-tab-pane>
-  </a-tabs>
+  <router-view />
 </template>
 
 <script>
 export default defineComponent({
   setup() {
-    return {
-    };
+    return {};
   },
 });
 </script>
 
 <style>
+::-webkit-scrollbar {
+  width: 6px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.5);
+}
 </style>
