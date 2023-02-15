@@ -19,6 +19,7 @@
             <div text-24px>{{item.textDay}}</div>
           </div>
         </div>
+        <div>{{item.fxDate}}</div>
       </div>
     </div>
   </div>
