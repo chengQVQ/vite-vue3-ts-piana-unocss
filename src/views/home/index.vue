@@ -37,6 +37,7 @@ export default defineComponent({
       icon: undefined,
       temp: undefined,
     });
+    console.log(123);
     const getNow = async () => {
       let obj = {
         location: "101044000",
